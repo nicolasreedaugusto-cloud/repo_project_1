@@ -70,7 +70,7 @@ p {
 .boxright {
     display: flex;
     background-color: gray;
-    width: 407px;
+    width: 500px;
     margin-left: 50px;
     align-items: center;
     justify-content: center;
@@ -89,7 +89,115 @@ button {
     font-weight: 900;
 }
     /* bottom half */
-.content_bottom {
+/* .content_bottom {} */
+
+
+.SRI {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900; 
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.mid2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.box_subtext{
+    
+    max-width: 170px;
+}
+.box {
+    
+    height: 170px;
+    width: 170px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    flex: 0 0 auto;
+
+
+}
+.pbottom {
+    color: gray;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;    
+}
+
+.p1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    align-self: end;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mid4 {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+
 
 }
 
+h2 { 
+     color: white;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.p2 {
+    margin: 0px;
+}
+
+.Bbutton {
+    background-color: #3882f6;
+    flex: 0 0 auto;
+    color: white;
+    border: 3px solid white;
+
+    
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    color: #e5e7eb;
+}
